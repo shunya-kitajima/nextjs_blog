@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "msw": "^0.35.0",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "8.0.0",
     "eslint-config-next": "11.1.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
   }
 }
