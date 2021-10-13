@@ -5,5 +5,5 @@ import Home from '../pages'
 
 it('Should render hello text', () => {
   render(<Home />)
-  expect(screen.findByText('Hello Nextjs')).toBeInTheDocument()
+  expect(screen.getByText('Hello Nextjs')).toBeInTheDocument()
 })
