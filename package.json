@@ -17,8 +17,16 @@
     "swr": "^1.0.1"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.7.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.3.0",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.2.5",
     "eslint": "8.0.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "jest": "^27.2.5",
+    "jest-css-modules": "^2.1.0"
   },
   "prettier": {
     "singleQuote": true,
