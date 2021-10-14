@@ -1,4 +1,4 @@
-import { fetch } from 'node-fetch'
+import fetch from 'node-fetch'
 
 export const getAllPostsData = async () => {
   const res = await fetch(
