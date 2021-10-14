@@ -3,7 +3,7 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 
 import Layout from '../../components/Layout'
 import { getAllPostIds, getPostData } from '../../lib/fetch'
-import { POST } from '../../types/Types'
+import { POST } from '../../Types/types'
 
 const PostDetail: React.FC<POST> = ({
   title,
