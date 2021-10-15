@@ -58,7 +58,7 @@ const Auth: React.FC = () => {
   return (
     <>
       <p className="text-3xl text-center">{isLogin ? 'Login' : 'Sign up'}</p>
-      <form onSubmit={authUser} className="mt-8 spave-y-3">
+      <form onSubmit={authUser} className="mt-8 space-y-3">
         <div>
           <input
             type="text"
